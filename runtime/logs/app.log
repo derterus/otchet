@@ -73,4 +73,804 @@ $_SERVER = [
     'PHP_SELF' => '/index.php'
     'REQUEST_TIME_FLOAT' => 1700135330.3274
     'REQUEST_TIME' => 1700135330
+]2023-11-17 10:21:59 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "products". in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-11-17 10:21:59 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61545'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=products'
+    'REQUEST_URI' => '/index.php?r=products'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700205719.6864
+    'REQUEST_TIME' => 1700205719
+]2023-11-17 10:22:02 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "employees". in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-11-17 10:22:02 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'employees'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61543'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=employees'
+    'REQUEST_URI' => '/index.php?r=employees'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700205722.1543
+    'REQUEST_TIME' => 1700205722
+]2023-11-17 10:22:56 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "products". in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-11-17 10:22:56 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61545'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=products'
+    'REQUEST_URI' => '/index.php?r=products'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700205776.5859
+    'REQUEST_TIME' => 1700205776
+]2023-11-17 10:40:43 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::Поставищ in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get()
+#2 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(687): yii\db\ActiveRecord->insert()
+#5 E:\OSPanel\domains\basic\controllers\ProductsController.php(73): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ProductsController->actionCreate()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-11-17 10:40:42 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products/create'
+]
+
+$_POST = [
+    '_csrf' => 'Url6ALExWzcYPbt9OcLG0xv_tTQhHoBKpZ0t48neoKEZ8ClZ42U3AH1_2B97o4epf8nbZ2lt63zdrUWT_I_XlA=='
+    'Products' => [
+        'Название' => '1'
+        'Бренд' => '1'
+        'Категория' => '1'
+        'Цена' => '1'
+        'Количество' => '1'
+        'Описание' => '1'
+        'Картинка' => 'https://w.forfun.com/fetch/da/daf8eb568fea522f6701fb9c66378cdc.jpeg'
+        'Срок_годности' => '5 лет'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '716'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://cassa:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61738'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=products%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=products%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700206842.504
+    'REQUEST_TIME' => 1700206842
+]2023-11-17 10:41:29 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::Поставищ in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get()
+#2 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(687): yii\db\ActiveRecord->insert()
+#5 E:\OSPanel\domains\basic\controllers\ProductsController.php(73): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ProductsController->actionCreate()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-11-17 10:41:28 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products/create'
+]
+
+$_POST = [
+    '_csrf' => '2K8Sc8QOwGNvmIXQ28H-BdAJ1Rn3JZVjyvJ3wDKkFDmT5kEqllqsVAra5rKZoL9_tD-7Sr9W_lWywh-wB_VjDA=='
+    'Products' => [
+        'Название' => '1'
+        'Бренд' => '1'
+        'Категория' => '1'
+        'Цена' => '1'
+        'Количество' => '1'
+        'Описание' => '1'
+        'Картинка' => 'https://w.forfun.com/fetch/da/daf8eb568fea522f6701fb9c66378cdc.jpeg'
+        'Срок_годности' => '5 лет'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '716'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://cassa:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61735'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=products%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=products%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700206888.5096
+    'REQUEST_TIME' => 1700206888
+]2023-11-17 10:42:08 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::Поставищ in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get()
+#2 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(687): yii\db\ActiveRecord->insert()
+#5 E:\OSPanel\domains\basic\controllers\ProductsController.php(73): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ProductsController->actionCreate()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-11-17 10:42:08 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products/create'
+]
+
+$_POST = [
+    '_csrf' => '2K8Sc8QOwGNvmIXQ28H-BdAJ1Rn3JZVjyvJ3wDKkFDmT5kEqllqsVAra5rKZoL9_tD-7Sr9W_lWywh-wB_VjDA=='
+    'Products' => [
+        'Название' => '1'
+        'Бренд' => '1'
+        'Категория' => '1'
+        'Цена' => '1'
+        'Количество' => '1'
+        'Описание' => '1'
+        'Картинка' => 'https://w.forfun.com/fetch/da/daf8eb568fea522f6701fb9c66378cdc.jpeg'
+        'Срок_годности' => '5 лет'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '716'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ORIGIN' => 'http://cassa:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61793'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=products%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=products%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700206928.4318
+    'REQUEST_TIME' => 1700206928
+]2023-11-17 10:42:14 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::Поставищ in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get()
+#2 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(687): yii\db\ActiveRecord->insert()
+#5 E:\OSPanel\domains\basic\controllers\ProductsController.php(73): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ProductsController->actionCreate()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-11-17 10:42:14 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products/create'
+]
+
+$_POST = [
+    '_csrf' => 'mwb0cxJygzXAQK-LOrLWetzDKSBmmKxC5Kn92eHOC1HQT6cqQCbvAqUCzOl405cAuPVHcy7rx3ScmZWp1J98ZA=='
+    'Products' => [
+        'Название' => '1'
+        'Бренд' => '1'
+        'Категория' => '1'
+        'Цена' => '1'
+        'Количество' => '1'
+        'Описание' => '1'
+        'Картинка' => 'https://w.forfun.com/fetch/da/daf8eb568fea522f6701fb9c66378cdc.jpeg'
+        'Срок_годности' => '5 лет'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '716'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://cassa:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61789'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=products%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=products%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700206934.3718
+    'REQUEST_TIME' => 1700206934
+]2023-11-17 10:45:41 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::image in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\views\products\index.php(44): yii\db\BaseActiveRecord->__get()
+#2 [internal function]: yii\base\View->{closure}()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\DataColumn.php(250): call_user_func()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\DataColumn.php(264): yii\grid\DataColumn->getDataCellValue()
+#5 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent()
+#6 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection()
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}()
+#13 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback()
+#14 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Widget.php(146): yii\grid\GridView->run()
+#16 E:\OSPanel\domains\basic\views\products\index.php(53): yii\base\Widget::widget()
+#17 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(347): require('E:\\OSPanel\\doma...')
+#18 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#19 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#20 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#21 E:\OSPanel\domains\basic\controllers\ProductsController.php(46): yii\base\Controller->render()
+#22 [internal function]: app\controllers\ProductsController->actionIndex()
+#23 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#24 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#25 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#26 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#27 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#28 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2023-11-17 10:45:40 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61786'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=products'
+    'REQUEST_URI' => '/index.php?r=products'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700207140.4963
+    'REQUEST_TIME' => 1700207140
+]2023-11-17 10:46:09 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::image in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\views\products\index.php(44): yii\db\BaseActiveRecord->__get()
+#2 [internal function]: yii\base\View->{closure}()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\DataColumn.php(250): call_user_func()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\DataColumn.php(264): yii\grid\DataColumn->getDataCellValue()
+#5 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent()
+#6 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection()
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}()
+#13 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback()
+#14 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Widget.php(146): yii\grid\GridView->run()
+#16 E:\OSPanel\domains\basic\views\products\index.php(53): yii\base\Widget::widget()
+#17 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(347): require('E:\\OSPanel\\doma...')
+#18 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#19 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#20 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#21 E:\OSPanel\domains\basic\controllers\ProductsController.php(46): yii\base\Controller->render()
+#22 [internal function]: app\controllers\ProductsController->actionIndex()
+#23 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#24 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#25 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#26 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#27 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#28 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2023-11-17 10:46:09 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61848'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=products'
+    'REQUEST_URI' => '/index.php?r=products'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700207169.224
+    'REQUEST_TIME' => 1700207169
+]2023-11-17 10:46:44 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Products::image in E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get()
+#1 E:\OSPanel\domains\basic\views\products\index.php(43): yii\db\BaseActiveRecord->__get()
+#2 [internal function]: yii\base\View->{closure}()
+#3 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\DataColumn.php(250): call_user_func()
+#4 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\DataColumn.php(264): yii\grid\DataColumn->getDataCellValue()
+#5 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent()
+#6 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell()
+#7 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(494): yii\grid\GridView->renderTableRow()
+#8 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#9 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#10 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection()
+#11 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection()
+#12 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}()
+#13 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback()
+#14 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\grid\GridView.php(301): yii\widgets\BaseListView->run()
+#15 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Widget.php(146): yii\grid\GridView->run()
+#16 E:\OSPanel\domains\basic\views\products\index.php(52): yii\base\Widget::widget()
+#17 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(347): require('E:\\OSPanel\\doma...')
+#18 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#19 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#20 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#21 E:\OSPanel\domains\basic\controllers\ProductsController.php(46): yii\base\Controller->render()
+#22 [internal function]: app\controllers\ProductsController->actionIndex()
+#23 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#24 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#25 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#26 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#27 E:\OSPanel\domains\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#28 E:\OSPanel\domains\basic\web\index.php(12): yii\base\Application->run()
+#29 {main}
+2023-11-17 10:46:43 [127.0.0.1][-][hqpak53rn0qtr7fkqqri26ael8pecuqj][info][application] $_GET = [
+    'r' => 'products'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hqpak53rn0qtr7fkqqri26ael8pecuqj'
+    '_csrf' => '55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'cassa:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://cassa:8080/index.php?r=products%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=hqpak53rn0qtr7fkqqri26ael8pecuqj; _csrf=55801b03e1e9dd1503eee89708c4d4da92cf0a4f33e3ad17d0a571ed822bfb41a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KISYRTl7eBcbBaAzd6nSHsk6x0hp5Qw5%22%3B%7D'
+    'PATH' => 'e:\\ospanel\\modules\\php\\PHP_8.1\\ext;e:\\ospanel\\modules\\php\\PHP_8.1\\pear;e:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;e:\\ospanel\\modules\\php\\PHP_8.1;e:\\ospanel\\modules\\wget\\bin;e:\\ospanel\\modules\\database\\MySQL-5.7-Win10\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;e:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'cassa'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/OSPanel/domains/basic/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/OSPanel/domains/basic/web/index.php'
+    'REMOTE_PORT' => '61851'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=products'
+    'REQUEST_URI' => '/index.php?r=products'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1700207203.2952
+    'REQUEST_TIME' => 1700207203
 ]
