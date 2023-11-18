@@ -7,6 +7,7 @@ use app\models\EmployeesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * EmployeesController implements the CRUD actions for Employees model.
@@ -70,7 +71,12 @@ class EmployeesController extends Controller
         $model = new Employees();
 
         if ($this->request->isPost) {
-            if ($model->load($this->request->post()) && $model->save()) {
+            if ($this->request->isPost) {
+                $model->load($this->request->post());
+                $model->Фотография=UploadedFile::getInstance($model,'Фотография');
+                $model->Фотография->saveAs("img/employees/{$model->Фотография->baseName}.{$model->Фотография->extension}");
+
+               $model->save(false);
                 return $this->redirect(['view', 'id' => $model->id]);
             }
         } else {

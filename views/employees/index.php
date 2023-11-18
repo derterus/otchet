@@ -10,7 +10,7 @@ use yii\grid\GridView;
 /** @var app\models\EmployeesSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Employees';
+$this->title = 'Сотрудники';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="employees-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Employees', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить Сотрудника', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -38,13 +38,18 @@ $this->params['breadcrumbs'][] = $this->title;
             'Адрес',
             'Телефон',
             'email:email',
-            [
-                'attribute' => 'Фотография',
-                'format' => 'html', // Set the format to HTML
-                'value' => function ($data) {
-                    return Html::img($data['Фотография'], ['alt' => 'Product Image', 'style' => 'width:200px;height:150px']);
-                },
-            ],
+            [    'attribute' => 'photo',
+            'format' => 'html',
+            'value' => function ($data) {
+                if (filter_var($data['Фотография'], FILTER_VALIDATE_URL)) {
+                    // Если фотография является гиперссылкой
+                    return Html::img($data['Фотография'], ['width' => '150px']);
+                } else {
+                    // Если фотография является путем к файлу
+                    return Html::img('@web/img/employees/' . $data['Фотография'], ['width' => '150px']);
+                }
+            },
+        ],
             [
                 'class' => ActionColumn::className(),
                 'urlCreator' => function ($action, Employees $model, $key, $index, $column) {

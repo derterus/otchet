@@ -10,7 +10,7 @@ use yii\grid\GridView;
 /** @var app\models\ProductsSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Products';
+$this->title = 'Товар';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="products-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Products', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавление Товара', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -36,13 +36,18 @@ $this->params['breadcrumbs'][] = $this->title;
             'Цена',
             'Количество',
             'Описание:ntext',
-            [
-                'attribute' => 'Картинка',
-                'format' => 'html', // Set the format to HTML
-                'value' => function ($data) {
-                    return Html::img($data['Картинка'], ['alt' => 'Product Image', 'style' => 'width:200px;height:150px']);
-                },
-            ],
+            [    'attribute' => 'Картинка',
+    'format' => 'html',
+    'value' => function ($data) {
+        if (filter_var($data['Картинка'], FILTER_VALIDATE_URL)) {
+            // Если фотография является гиперссылкой
+            return Html::img($data['Картинка'], ['width' => '150px']);
+        } else {
+            // Если фотография является путем к файлу
+            return Html::img('@web/img/products/' . $data['Картинка'], ['width' => '150px']);
+        }
+    },
+],
             'Срок_годности',
             'Поставщик',
             [

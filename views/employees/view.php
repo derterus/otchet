@@ -16,11 +16,11 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
+        <?= Html::a('Редактировать', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Удалить', ['delete', 'id' => $model->id], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Вы уверены что хотите удалить эту запись?',
                 'method' => 'post',
             ],
         ]) ?>
@@ -38,7 +38,18 @@ $this->params['breadcrumbs'][] = $this->title;
             'Адрес',
             'Телефон',
             'email:email',
-            'Фотография',
+            [    'attribute' => 'photo',
+            'format' => 'html',
+            'value' => function ($data) {
+                if (filter_var($data['Фотография'], FILTER_VALIDATE_URL)) {
+                    // Если фотография является гиперссылкой
+                    return Html::img($data['Фотография'], ['width' => '150px']);
+                } else {
+                    // Если фотография является путем к файлу
+                    return Html::img('@web/img/employees/' . $data['Фотография'], ['width' => '150px']);
+                }
+            },
+        ],
         ],
     ]) ?>
 

@@ -10,7 +10,7 @@ use yii\widgets\ActiveForm;
 
 <div class="employees-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options'=>['enctype'=>'multipart/form-data']]); ?>
 
     <?= $form->field($model, 'Имя')->textInput(['maxlength' => true]) ?>
 
@@ -28,10 +28,10 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'Фотография')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'Фотография')->fileInput(['maxlength' => true]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
