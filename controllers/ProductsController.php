@@ -7,8 +7,7 @@ use app\models\ProductsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\web\UploaderFile;
-
+use yii\web\UploadedFile;
 /**
  * ProductsController implements the CRUD actions for Products model.
  */
@@ -73,8 +72,8 @@ class ProductsController extends Controller
         if ($this->request->isPost) {
             if ($this->request->isPost) {
                 $model->load($this->request->post());
-                $model->Фотография=UploadedFile::getInstance($model,'Картинка');
-                $model->Фотография->saveAs("img/products/{$model->Картинка->baseName}.{$model->Картинка->extension}");
+                $model->Картинка=UploadedFile::getInstance($model,'Картинка');
+                $model->Картинка->saveAs("img/products/{$model->Картинка->baseName}.{$model->Картинка->extension}");
 
                $model->save(false);
                 return $this->redirect(['view', 'id' => $model->id]);

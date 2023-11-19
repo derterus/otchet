@@ -10,6 +10,8 @@ use yii\grid\GridView;
 /** @var app\models\EmployeesSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
+Yii::$app->language = 'ru';
+
 $this->title = 'Сотрудники';
 $this->params['breadcrumbs'][] = $this->title;
 ?>

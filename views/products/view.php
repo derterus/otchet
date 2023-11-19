@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /** @var app\models\Products $model */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Products', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Товары', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
@@ -37,17 +37,17 @@ $this->params['breadcrumbs'][] = $this->title;
             'Количество',
             'Описание:ntext',
             [    'attribute' => 'Картинка',
-    'format' => 'html',
-    'value' => function ($data) {
-        if (filter_var($data['Картинка'], FILTER_VALIDATE_URL)) {
-            // Если фотография является гиперссылкой
-            return Html::img($data['Картинка'], ['width' => '150px']);
-        } else {
-            // Если фотография является путем к файлу
-            return Html::img('web/img/products/' . $data['Картинка'], ['width' => '150px']);
-        }
-    },
-],
+            'format' => 'html',
+            'value' => function ($data) {
+                if (filter_var($data['Картинка'], FILTER_VALIDATE_URL)) {
+                    // Если фотография является гиперссылкой
+                    return Html::img($data['Картинка'], ['width' => '150px']);
+                } else {
+                    // Если фотография является путем к файлу
+                    return Html::img('@web/img/products/' . $data['Картинка'], ['width' => '150px']);
+                }
+            },
+        ],
             'Срок_годности',
             'Поставщик',
         ],

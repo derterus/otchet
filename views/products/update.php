@@ -4,11 +4,12 @@ use yii\helpers\Html;
 
 /** @var yii\web\View $this */
 /** @var app\models\Products $model */
+Yii::$app->language = 'ru';
 
-$this->title = 'Редактирвание Товара: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Products', 'url' => ['index']];
+$this->title = 'Редактирование Товара: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Товары', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Редактирование';
 ?>
 <div class="products-update">
 

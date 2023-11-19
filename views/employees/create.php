@@ -4,9 +4,9 @@ use yii\helpers\Html;
 
 /** @var yii\web\View $this */
 /** @var app\models\Employees $model */
-
-$this->title = 'Create Employees';
-$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
+Yii::$app->language = 'ru';
+$this->title = 'Добавление сотрудника';
+$this->params['breadcrumbs'][] = ['label' => 'Сотрудники', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="employees-create">

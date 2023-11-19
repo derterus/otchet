@@ -8,61 +8,61 @@ use yii\bootstrap5\ActiveForm;
 use yii\bootstrap5\Html;
 use yii\captcha\Captcha;
 
-$this->title = 'Contact';
+Yii::$app->language = 'ru';
+
+$this->title = 'Контакты';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="body-content-center">
+  <div class="row">
+    <div class="col-lg-12 mb-3 d-flex"><h1>Наши контакты</h1></div>
+  </div>
 
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
-
-        <div class="alert alert-success">
-            Thank you for contacting us. We will respond to you as soon as possible.
-        </div>
-
-        <p>
-            Note that if you turn on the Yii debugger, you should be able
-            to view the mail message on the mail panel of the debugger.
-            <?php if (Yii::$app->mailer->useFileTransport): ?>
-                Because the application is in development mode, the email is not sent but saved as
-                a file under <code><?= Yii::getAlias(Yii::$app->mailer->fileTransportPath) ?></code>.
-                Please configure the <code>useFileTransport</code> property of the <code>mail</code>
-                application component to be false to enable email sending.
-            <?php endif; ?>
-        </p>
-
-    <?php else: ?>
-
-        <p>
-            If you have business inquiries or other questions, please fill out the following form to contact us.
-            Thank you.
-        </p>
-
-        <div class="row">
-            <div class="col-lg-5">
-
-                <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
-
-                    <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
-
-                    <?= $form->field($model, 'email') ?>
-
-                    <?= $form->field($model, 'subject') ?>
-
-                    <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
-
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::class, [
-                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                    ]) ?>
-
-                    <div class="form-group">
-                        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                    </div>
-
-                <?php ActiveForm::end(); ?>
-
+  <div class="row">
+    <div class="col-lg-3 mb-3 d-flex">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Генеральный Директор</h2>
+                <img class="card-img" src="https://www.kino-teatr.ru/art/6027/86749.jpg">
+                <p class="card-text">Иван Иванов</p>
+                <p class="card-text">Email: ivanov@company.com</p>
+                <p class="card-text">Телефон: +7 123 456 78 90</p>
             </div>
         </div>
-
-    <?php endif; ?>
+    </div>
+    <div class="col-lg-3 mb-3 d-flex">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Менеджер по продажам</h2>
+                <img class="card-img" src="https://s5.stc.all.kpcdn.net/afisha/msk/wp-content/uploads/sites/5/2023/09/aleksej-petruhin-600x600.jpg">
+                <p class="card-text">Алексей Петрухин</p>
+                <p class="card-text">Email: petruhin@company.com</p>
+                <p class="card-text">Телефон: +7 098 765 43 21</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mb-3 d-flex">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Технический директор</h2>
+                <img class="card-img" src="https://kuban24.tv/wp-content/uploads/2023/03/foto1-25-640x480.jpg">
+                <p class="card-text">Алексей Смирнов</p>
+                <p class="card-text">Email: smirnov@company.com</p>
+                <p class="card-text">Телефон: +7 345 678 90 12</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 mb-3 d-flex">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Главный бухгалтер</h2>
+                <img class="card-img" src="https://fhr.ru/upload/resize_cache/iblock/163/800_600_2/01_20230615_CHANCE_BND_16.jpg">
+                <p class="card-text">Андрей Соколов</p>
+                <p class="card-text">Email: sokolov@company.com</p>
+                <p class="card-text">Телефон: +7 234 567 89 01</p>
+            </div>
+        </div>
+    </div>
+  </div>
 </div>
+
