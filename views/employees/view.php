@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'Адрес',
             'Телефон',
             'email:email',
-            [    'attribute' => 'photo',
+            [    'attribute' => 'Фотография',
             'format' => 'html',
             'value' => function ($data) {
                 if (filter_var($data['Фотография'], FILTER_VALIDATE_URL)) {
