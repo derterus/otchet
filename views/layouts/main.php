@@ -46,8 +46,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'Контакты', 'url' => ['/site/contact']],
             ['label' => 'Товары', 'url' => ['/products']],
             ['label' => 'Сотрудники', 'url' => ['/employees']],
+            ['label' => 'Площадь и Объем', 'url' => ['/shape']],
 
-            
         ]
     ]);
     NavBar::end();
